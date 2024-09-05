@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+p {
+    letter-spacing: 2px;
+}
+
+
+.navbar {
+    background-image: linear-gradient(169deg, rgba(2, 0, 36, 1) 0%, rgba(165, 163, 196, 1) 12%, rgba(13, 7, 121, 0.637) 100%);
+}
+
+.navbar-brand {
+    width: 40px;
+}
+
+.navbar-brand img {
+    width: 100%;
+}
+
+.navbar-nav {
+    gap: 40px;
+
+}
+
+.from-b input,
+.btn-outline-success {
+    border-radius: 20px;
+}
+
+.navbar-collapse ul li a {
+    position: relative;
+    transition: all .2s linear;
+    font-weight: 700;
+    padding: 0.5rem 0;
+}
+
+.navbar-collapse ul li ::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    bottom: 0rem;
+    left: 50%;
+    border-bottom: 0.2rem solid rgba(0, 0, 0, 0.329);
+    transition: all .2s linear;
+    transform: translateX(-50%);
+}
+
+.navbar-collapse ul li :hover::after {
+    width: 100%;
+
+
+}
+
+.navbar-collapse ul li a:hover {
+    scale: 1.07;
+}
+
+
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-inner {
+    display: none;
+}
+
+.inner-box {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    z-index: 100;
+    padding: 10px;
+    background-color: white;
+    /* opacity: 0.7;     */
+
+}
+
+
+
+.dropdown-inner a {
+    padding: 4px 1px!important;
+    margin: 0 50px 0 5px;
+    font-size: 1rem;
+    font-weight: 600 !important;
+
+
+
+}
+
+.dropdown-inner a:hover {
+       color: rgb(87, 43, 128);  
+       letter-spacing: .5px;  
+
+}
+
+.dropdown:hover .dropdown-inner {
+    display: block;
+}
+
+
+.loginfromm {
+    backdrop-filter: blur(8px);
+    color: black;
+    font-weight: 500;
+}
+.loginfrom{
+    background-image: url(../assets/pic/svgbg.svg);
+    background-size: cover;
+}
+#emailHelp{
+    color: rgba(204, 6, 6, 0.74);
+    font-weight: 500;
+}
+.loginbtn {
+    transition: all 0.3s linear;
+
+}
+.loginbtn:hover{
+    scale: .9;
+    margin-top: 6px;
+}
+.loginbtn button{
+    border-radius: 20rem;
+    background-color: #fff;
+    color: rebeccapurple;
+}
+
+.submitbtn{
+    transition: all .3s linear;
+}
+.submitbtn:hover{
+    letter-spacing: 1px;
+    scale: 1.03;
+}
+.inputdiv {
+    background-color: rgba(95, 96, 141, 0.438);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+
+}
+
+.inputdiv input {
+    background-color: transparent;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(105, 103, 103, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 15px;
+    line-height: 5px;
+}
+
+@media (max-width:1050px) {
+    .navbar-nav {
+        margin: 0 !important;
+    }
+
+    .inner-box {
+        position: static !important;
+    }
+
+    .navbar-collapse ul li a:hover::after {
+        width: 0;
+        scale: 1;
+
+    }
+
+    .nav-btn {
+        margin: 20px 10px 10px 0px !important;
+    }
+
+}

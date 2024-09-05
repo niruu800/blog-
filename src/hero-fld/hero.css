@@ -1,0 +1,32 @@
+.carousel-img img{
+    width: 100%;
+}
+
+
+.trading-heading{
+    margin: 1rem 0 1rem 0;
+}
+
+.userimg img{
+    border-radius: 50%;
+}
+
+.userimg{
+    width: 55px;
+}
+.trading-dt{
+    position: relative;
+}
+.details{
+    position: absolute;
+    bottom:-0.1%;
+    left: 5rem;
+}
+.date span{
+    color: black;
+
+}
+
+p{
+    color: rgba(0, 0, 0, 0.486);
+}

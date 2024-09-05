@@ -1,0 +1,96 @@
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.fromdata {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+    gap: -20px;
+    padding: 50px 10px 50px 50px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+
+}
+
+.input {
+    flex-grow: 1;
+}
+
+.input input {
+    border: none;
+    outline: none;
+}
+
+.email-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+    box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s;
+}
+
+
+
+.contact-icon {
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact-icon div {
+    background-color: rgba(0, 0, 0, 0.322);
+    padding: 5px 5px 0 4px;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    height: 40px;
+    width: 43px;
+    transition: all .2s linear;
+
+}
+
+.contact-icon div:hover {
+    background-color: rgba(255, 166, 0, 0.897);
+    color: white;
+    scale: 1.1;
+}
+.ctct{
+    color: rgba(255, 166, 0, 0.897);
+    font-size: 3.2rem;
+}
+
+
+.btnn {
+    display: flex;
+    justify-content: center;
+    color: white;
+
+}
+
+.btnn button {
+    border-radius: 20px;
+    padding: 15px 100px 15px 100px;
+    font-size: .6rem;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    border: none;
+    transition: all .2s linear;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    background-color: rgba(255, 166, 0, 0.897);
+
+}
+
+.btnn button:hover {
+    background-color: rgba(121, 116, 109, 0.486);
+    color: black;
+    scale: 1.05;
+}
+
+.copyright a{
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+}

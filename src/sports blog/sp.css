@@ -1,0 +1,60 @@
+.neerajheading {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+}
+
+.authorimg,
+.authorimg img {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.logo-authorimg img {
+    border-radius: 50%;
+    width: 100%;
+}
+
+.logo-authorimg {
+    width: 60px;
+}
+
+.author-name {
+    align-items: center;
+}
+
+.title-sp {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.sp-blog-content-p {
+    color: black;
+}
+
+.readmore {
+    background: rgb(29, 82, 253);
+    background: linear-gradient(188deg, rgba(29, 82, 253, 1) 0%, rgba(223, 223, 223, 1) 66%, rgba(210, 203, 214, 1) 100%, rgba(0, 0, 0, 0) 100%);
+    display: flex;
+    justify-content: center;
+    line-height: 3rem;
+}
+
+.readmore a{
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.readmore {
+    transition: all .3s linear;
+    
+
+}
+
+.readmore:hover {
+    letter-spacing: 2px;
+    border-radius: 0 0 10px 7px;
+    font-size: 1.3rem;
+    /* scale: 1.04; */
+    background: rgb(29, 82, 253);
+    background: linear-gradient(188deg, rgba(29, 82, 253, 1) 0%, rgba(223, 223, 223, 1) 66%, rgba(210, 203, 214, 1) 100%, rgba(0, 0, 0, 0) 100%);
+}

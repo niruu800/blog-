@@ -1,0 +1,31 @@
+.formargin{
+    margin-top: 50px;
+    
+}
+
+.postimg{
+    width: 55px;
+}
+.postimg img{
+    border-radius: 50%;
+}
+
+
+.post-ex{
+    position: relative;
+}
+.post-user{
+    position: absolute;
+    bottom: 0rem;
+    left: 4rem;
+}
+
+.post-img img{
+    border-radius: 0px 10px 50px 30px;
+}
+.style{
+    transition: all .2s linear!important;
+}
+.style:hover{
+    scale: 1.03;
+}

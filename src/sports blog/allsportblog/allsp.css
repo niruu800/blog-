@@ -1,0 +1,22 @@
+.bannerimg{
+   background-repeat: no-repeat;
+   background-size:contain;
+   padding-top: 15rem;
+
+  }
+
+  /* .forstyle{
+    position: relative;
+  }
+  .sss{
+    position: absolute;
+    top: -16rem;
+  } */
+  .authorimgg , .authorimgg img{
+    border-radius: .2rem .5rem 2rem;
+
+  }
+  .authorname{
+    letter-spacing: 1.5px;
+  }
+  
