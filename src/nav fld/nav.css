@@ -44,7 +44,7 @@ p {
     width: 0;
     bottom: 0rem;
     left: 50%;
-    border-bottom: 0.2rem solid rgba(0, 0, 0, 0.329);
+    border-bottom: 0.rem solid rgba(0, 0, 0, 0.329);
     transition: all .2s linear;
     transform: translateX(-50%);
 }
@@ -105,7 +105,7 @@ p {
 
 
 .loginfromm {
-    backdrop-filter: blur(8px);
+    backdrop-filter: blur(4px);
     color: black;
     font-weight: 500;
 }

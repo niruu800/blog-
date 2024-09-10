@@ -1,6 +1,6 @@
 import Navbar from './nav fld/nav'
-import Hero from './hero-fld/hero'
 import Post from './post fld/post'
+import About from './about fld/about'
 import Category from './category fld/category'
 import Contact from './contact us fld/contact'
 import Allsportsblog from './sports blog/niraj-blog'
@@ -28,6 +28,7 @@ function App() {
         <Routes>
           <Route path='' element={<HomePage />}></Route>
           <Route path='/post' element={<Post />}></Route>
+          <Route path='/about' element={<About />}></Route>
           <Route path='/category' element={<Category />}></Route>
           <Route path='/sportpage' element={<Allspblog />}></Route>
           <Route path='/contact' element={<Contact />}></Route>

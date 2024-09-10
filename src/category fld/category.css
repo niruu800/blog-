@@ -1,23 +1,25 @@
-
-.headingpost{
+.headingpost {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
-.pop-post{
-    margin-bottom: 5rem ;
+
+.pop-post {
+    margin-bottom: 5rem;
 }
 
-.sporthead{
-    font-variant:small-caps;
+.sporthead {
+    font-variant: small-caps;
 }
-.cat-ig img{
+
+.cat-ig img {
     border-radius: 0px 10px;
 }
-.hover{
+
+.hover {
     transition: all .3s linear;
 }
-.hover:hover{
+
+.hover:hover {
     scale: 1.04;
     opacity: .7;
 }
-
